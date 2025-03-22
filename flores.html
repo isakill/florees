@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo</title>
+    <style>
+        body {
+            background-color: #ffeb3b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            position: relative;
+        }
+        .message {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #d32f2f;
+            font-size: 2.5em;
+            margin: 0;
+        }
+        p {
+            color: #333;
+            font-size: 1.2em;
+            margin-top: 10px;
+        }
+        .flower {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+        }
+        .top-left { top: 10px; left: 10px; }
+        .top-right { top: 10px; right: 10px; }
+        .bottom-left { bottom: 10px; left: 10px; }
+        .bottom-right { bottom: 10px; right: 10px; }
+        .big-flowers {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .big-flowers img {
+            width: 400px;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://media1.giphy.com/media/lixplO1rbVI6jvCoyy/giphy.gif" class="flower top-left">
+    <img src="https://media1.giphy.com/media/lixplO1rbVI6jvCoyy/giphy.gif" class="flower top-right">
+    <img src="https://media1.giphy.com/media/lixplO1rbVI6jvCoyy/giphy.gif" class="flower bottom-left">
+    <img src="https://media1.giphy.com/media/lixplO1rbVI6jvCoyy/giphy.gif" class="flower bottom-right">
+    
+    <div class="message">
+        <h1>Te amo mucho</h1>
+        <div class="big-flowers">
+            
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDMybmNwb3JuYWppbWh5cDA0cjRwZHc2MXE1d3BmbTAxcGtyNDY0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xK8l8YqkTazyqVryyR/giphy.gif">
+            
+        </div>
+        <p>No me olvidé de tus flores amarillas</p>
+    </div>
+</body>
+</html>
